@@ -109,3 +109,22 @@ footer {
     padding: 20px;
     border-radius: 8px;
 }
+/* Responsive Design */
+@media (max-width: 768px) {
+    .home-layout {
+        grid-template-columns: 1fr;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+}
