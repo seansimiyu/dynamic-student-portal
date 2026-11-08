@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1 style="letter-spacing: 2px;">Dynamic Student Portal</h1>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+    }
+</style>
+</head>
+<body>
+
+    <header>
+        <h1>Dynamic Student Portal</h1>
+        <p>Your gateway to academic information</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="timetable.html">Timetable</a>
+        <a href="register.html">Register</a>
+    </nav>
+
+    <main class="home-layout">
+        <section>
+            <h2>Welcome to the Student Portal</h2>
+            <p>Access your academic information, view your timetable,
+            and register for courses through our student portal.</p>
+        </section>
+
+        <section>
+            <h2>Student Information</h2>
+            <p>Manage your academic activities in one convenient place.</p>
+        </section>
+        <section>
+    <h2>Registered Students</h2>
+    <p id="studentCount"></p>
+
+    <ul id="studentsList">
+    </ul>
+
+    <button id="displayStudents">Display Students</button>
+    <button id="loadJsonStudents">Load Students from JSON</button>
+</section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Dynamic Student Portal. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>

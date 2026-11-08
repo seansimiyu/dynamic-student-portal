@@ -1,0 +1,111 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #1F3864;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Navigation */
+nav {
+    background-color: #2c3e50;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f1c40f;
+}
+
+/* Main content */
+main {
+    padding: 30px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    min-height: 300px;
+}
+
+h2 {
+    color: #1F3864;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #1F3864;
+    color: white;
+}
+
+/* Forms */
+input, select {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #1F3864;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2c3e50;
+}
+
+/* Footer */
+footer {
+    background-color: #1F3864;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+/* Homepage Grid Layout */
+.home-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 25px;
+    align-items: start;
+}
+
+.home-layout section {
+    background-color: #f4f6f9;
+    padding: 20px;
+    border-radius: 8px;
+}
